@@ -29,8 +29,8 @@ require("neo-tree").setup({
 | `l`                      | -               | **For a directory**: Expand the directory if collapsed, focus its first child if expanded.<br />**For a file**: Open the file                           |
 | `H`, `<C-k>`, `[[`, `gk` | -               | Focus the parent                                                                                                                                        |
 | `L`, `<C-j>`, `]]`, `gj` | -               | **For an expandable node**: Expand the node if collapsed, focus its first child if expanded.<br />**For a non-expandable node**: Focus the next sibling |
-| `K`                      | -               | Focus the previous sibling                                                                                                                              |
 | `J`                      | -               | Focus the next sibling                                                                                                                                  |
+| `K`                      | -               | Focus the previous sibling                                                                                                                              |
 | `go`                     | `P`             | Toggle Preview Mode                                                                                                                                     |
 | `s`, `-`                 | `S`             | Open the file in a new horizontal split sibling                                                                                                         |
 | `v`, `\|`                | `s`             | Open the file in a vertical split sibling                                                                                                               |
