@@ -2,6 +2,23 @@
 
 [neo-tree.nvim](https://github.com/nvim-neo-tree/neo-tree.nvim) key mappings like [emacs-neotree](https://github.com/jaypei/emacs-neotree) in [Doom Emacs](https://github.com/doomemacs/doomemacs)
 
+## Usage
+
+```lua
+local evil_mappings = require("neo-tree-evil-mappings")
+
+require("neo-tree").setup({
+  commands = vim.tbl_extend("force", evil_mappings.commands, {
+    -- You can define your own commands here
+  }),
+  window = {
+    mappings = evil_mappings.vim.tbl_extend("force", evil_mappings.window.mappings, {
+      -- You can define your own mappings here
+    }),
+  },
+})
+```
+
 ## Key Mappings
 
 | Key(s)              | Original Key(s) | Description                                                                                                                                             |
