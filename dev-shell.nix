@@ -18,6 +18,11 @@ mkShell {
             window = {
               mappings = evil_mappings.mappings,
             },
+            filesystem = {
+              window = {
+                mappings = evil_mappings.filesystem_mappings,
+              },
+            },
           })
           EOF
         '';

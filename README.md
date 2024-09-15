@@ -16,6 +16,13 @@ require("neo-tree").setup({
       -- You can define your own mappings here
     }),
   },
+  filesystem = {
+    window = {
+      mappings = vim.tbl_extend("force", evil_mappings.filesystem_mappings, {
+        -- You can define your own mappings
+      },
+    },
+  },
 })
 ```
 
@@ -34,3 +41,12 @@ require("neo-tree").setup({
 | `go`                     | `P`             | Toggle Preview Mode                                                                                                                                     |
 | `s`, `-`                 | `S`             | Open the file in a new horizontal split sibling                                                                                                         |
 | `v`, `\|`                | `s`             | Open the file in a vertical split sibling                                                                                                               |
+
+### Filesystem
+
+| Key(s) | Original Key(s) | Description                                                   |
+| ------ | --------------- | ------------------------------------------------------------- |
+| `gh`   | `H`             | Toggle whether hidden are shown or not                        |
+| `gr`   | `R`             | Rescan the filesystem and redraw the tree                     |
+| `R`    | `.`             | Change the root directory to the currently selected directory |
+| `u`    | `<BS>`          | Moves the root directory up one level                         |

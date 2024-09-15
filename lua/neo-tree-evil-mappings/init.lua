@@ -39,4 +39,13 @@ M.mappings = {
 	S = "noop",
 }
 
+M.filesystem_mappings = {
+	gh = "toggle_hidden",
+	gr = "refresh",
+	R = "set_root",
+	["."] = "noop",
+	u = "navigate_up",
+	["<BS>"] = "noop",
+}
+
 return M
