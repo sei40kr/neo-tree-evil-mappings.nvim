@@ -39,8 +39,8 @@ require("neo-tree").setup({
 | `J`                      | -               | Focus the next sibling                                                                                                                                  |
 | `K`                      | -               | Focus the previous sibling                                                                                                                              |
 | `go`                     | `P`             | Toggle Preview Mode                                                                                                                                     |
-| `s`, `-`                 | `S`             | Open the file in a new horizontal split sibling                                                                                                         |
-| `v`, `\|`                | `s`             | Open the file in a vertical split sibling                                                                                                               |
+| `s`, `-`                 | `S`             | Open the file in a new horizontal split                                                                                                                 |
+| `v`, `\|`                | `s`             | Open the file in a vertical split                                                                                                                       |
 
 ### Filesystem
 
