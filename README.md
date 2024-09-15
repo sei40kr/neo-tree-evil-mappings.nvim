@@ -21,11 +21,16 @@ require("neo-tree").setup({
 
 ## Key Mappings
 
-| Key(s)              | Original Key(s) | Description                                                                                                                                             |
-| ------------------- | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `l`                 | -               | **For a directory**: Expand the directory if collapsed, focus its first child if expanded.<br />**For a file**: Open the file                           |
-| `h`                 | -               | **For an expandable node**: Collapse the node if expanded, focus its parent if collapsed.<br />**For a non-expandable node**: Focus its parent          |
-| `<C-k>`, `[[`, `gk` | -               | Focus the parent                                                                                                                                        |
-| `<C-j>`, `]]`, `gj` | -               | **For an expandable node**: Expand the node if collapsed, focus its first child if expanded.<br />**For a non-expandable node**: Focus the next sibling |
-| `K`                 | -               | Focus the previous sibling                                                                                                                              |
-| `J`                 | -               | Focus the next sibling                                                                                                                                  |
+### Common
+
+| Key(s)                   | Original Key(s) | Description                                                                                                                                             |
+| ------------------------ | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `h`                      | -               | **For an expandable node**: Collapse the node if expanded, focus its parent if collapsed.<br />**For a non-expandable node**: Focus its parent          |
+| `l`                      | -               | **For a directory**: Expand the directory if collapsed, focus its first child if expanded.<br />**For a file**: Open the file                           |
+| `H`, `<C-k>`, `[[`, `gk` | -               | Focus the parent                                                                                                                                        |
+| `L`, `<C-j>`, `]]`, `gj` | -               | **For an expandable node**: Expand the node if collapsed, focus its first child if expanded.<br />**For a non-expandable node**: Focus the next sibling |
+| `K`                      | -               | Focus the previous sibling                                                                                                                              |
+| `J`                      | -               | Focus the next sibling                                                                                                                                  |
+| `go`                     | `P`             | Toggle Preview Mode                                                                                                                                     |
+| `s`, `-`                 | `S`             | Open the file in a new horizontal split sibling                                                                                                         |
+| `v`, `\|`                | `s`             | Open the file in a vertical split sibling                                                                                                               |
