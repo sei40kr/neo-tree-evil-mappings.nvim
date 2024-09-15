@@ -12,7 +12,7 @@ require("neo-tree").setup({
     -- You can define your own commands here
   }),
   window = {
-    mappings = evil_mappings.vim.tbl_extend("force", evil_mappings.window.mappings, {
+    mappings = evil_mappings.vim.tbl_extend("force", evil_mappings.mappings, {
       -- You can define your own mappings here
     }),
   },
